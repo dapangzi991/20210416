@@ -1,0 +1,114 @@
+.masterRemaker{
+	.asseay{
+		width: 19.5rem;
+		height: 4.875rem;
+		background-color: #F3F3F3;
+		border-radius: 0.3125rem;
+		margin-bottom: 0.875rem;
+		margin-top: 0.625rem;
+		.asseayLeft{
+			width: 6.125rem;
+			height: 4.0625rem;
+			border-radius: 0.3125rem;
+			background-color: #333333;
+		}
+		.asseayRight{
+			width: 10.75rem;
+			height: 3.8rem;
+			font-size: 0.6875rem;
+			color: #666666;
+			overflow: hidden;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 4 /*几行就写数字几*/
+		}
+	}
+	.dynamicDetailRemarkList{
+		margin-top: 0.625rem;
+		width: 19.6875rem;
+		.remarkList{
+			position: relative;
+			.btn{
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 3.3125rem;
+				height: 1.375rem;
+				background: #FF526C;
+				border-radius: 0.6875rem;
+				font-size: 0.6875rem;
+			}
+			.replybtn{color: #FFFFFF;}
+			.isreplybtn{color: #6F6F6F;background-color: #E7E7E7;}
+			.remarkContent{
+				.remarkContentRight{
+					width: 16.625rem;
+					font-size: 0.75rem;
+					color: #666666;
+					line-height: 1.1875rem;
+					margin-top: 0.625rem;
+				}
+				.masterreply{
+					width: 15rem;
+					font-size: 0.75rem;
+					line-height: 1.375rem;
+					background-color: #F0F0F0;
+					padding: 0.75rem 0.875rem;
+					border-radius: 0.3125rem;
+					color: #666666;
+					span{
+						font-size: 0.75rem;
+						color: #FFFFFF;
+						padding: 0.125rem 0.375rem;
+						background-color: #FF526C;
+						border-radius: 0.625rem;
+					}
+				}
+			}
+			border-bottom: 0.0625rem solid #E4E4E4;
+		}
+	}
+	/* 大咖信息 */
+	.masterInfo{
+		width: 19.6875rem;
+		height: 2.566875rem;
+		margin-top: 0.625rem;
+		.portrait{
+			width: 2.5625rem;
+			height: 2.5625rem;
+			border-radius: 50%;
+			background-color: #333;
+			color: #FFFFFF;
+		}
+		.infoName{
+			margin-left: 0.729375rem;
+			.infoName_name{
+				font-size: 0.75rem;
+				color: #333333;
+			}
+			.infoName_time{
+				font-size: 0.6875rem;
+				color: #666666;
+			}
+		}
+		.matserRights{
+			height: 100%;
+			span{
+				font-size: 0.5625rem;
+				color: #333333;
+			}
+		}
+		.matserRight{
+			width: 2.875rem;
+			height: 1.375rem;
+			background: rgba($color: #FF526C, $alpha: .15);
+			border-radius: 0.6875rem;
+			font-size: 0.6875rem;
+			color: #FF526C;
+		}
+		.isfocus{
+			background: #E9E9E9;
+			color: #666666;
+		}
+	}
+}

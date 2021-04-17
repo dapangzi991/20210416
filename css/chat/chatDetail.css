@@ -1,0 +1,65 @@
+.chatDetail {
+  background-color: #E6E6E6; }
+  .chatDetail .setMessage {
+    width: 100%;
+    height: 2.875rem;
+    background: #FFFFFF;
+    position: sticky;
+    bottom: 0;
+    margin-top: 1.25rem; }
+    .chatDetail .setMessage input {
+      width: 16.875rem;
+      height: 1.8125rem;
+      background: #E7E7E7;
+      border-radius: 0.9375rem;
+      padding-left: 1.125rem; }
+    .chatDetail .setMessage span {
+      font-size: 0.6875rem;
+      color: #FF526C;
+      padding-right: 0.625rem; }
+  .chatDetail .hintMsg {
+    font-size: 0.75rem;
+    color: #6BC08F;
+    width: 100%;
+    height: 1.75rem;
+    background-color: #E4FAEE;
+    position: sticky;
+    top: 0; }
+  .chatDetail .chatTime {
+    width: 100%;
+    margin-top: 1.1875rem;
+    text-align: center;
+    font-size: 0.5625rem;
+    color: #666666; }
+  .chatDetail .Them {
+    width: 20rem;
+    margin-top: 0.875rem; }
+    .chatDetail .Them .portrait {
+      float: left;
+      background-color: #333333; }
+    .chatDetail .Them .message {
+      float: left;
+      margin-left: 0.75rem;
+      border-radius: 0.1875rem 0.4375rem 0.4375rem 0.4375rem;
+      background-color: #FFFFFF;
+      color: #323252; }
+  .chatDetail .Mine {
+    width: 20rem;
+    margin-top: 0.875rem; }
+    .chatDetail .Mine .portrait {
+      float: right;
+      background-color: #333333; }
+    .chatDetail .Mine .message {
+      float: right;
+      margin-right: 0.75rem;
+      border-radius: 0.4375rem 0.1875rem 0.4375rem 0.4375rem; }
+  .chatDetail .portrait {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%; }
+  .chatDetail .message {
+    max-width: 14.375rem;
+    background-color: #FF526C;
+    font-size: 0.8125rem;
+    color: #FFFFFF;
+    padding: 0.4375rem 0.8125rem; }

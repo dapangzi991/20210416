@@ -1,0 +1,25 @@
+.sepical, .dynamic, .masterList{
+	.tabs{
+		height: 2.8rem;
+		width: 100%;
+		border-bottom: 0.0625rem solid #E3E3E3;
+	}
+	.tab{
+		font-size: 0.9375rem;
+		font-weight: bold;
+		color: #000000;
+	}
+	.tabafter{
+		position: relative;
+		&::after{
+			content: '';
+			position: absolute;
+			bottom: -0.49375rem;
+			left: 0;
+			width: 1.875rem;
+			height: 0.1875rem;
+			background: #FF526C;
+			border-radius: 0.125rem;
+		}
+	}
+}

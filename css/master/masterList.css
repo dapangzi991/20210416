@@ -1,0 +1,49 @@
+.masterList .masterlist {
+  width: 19.6875rem;
+  border-bottom: 0.0625rem solid #E8E8E8;
+  position: relative;
+  margin-top: 1.125rem; }
+  .masterList .masterlist .positionrt {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2.875rem;
+    height: 1.375rem;
+    font-size: 0.6875rem;
+    border-radius: 0.6875rem; }
+  .masterList .masterlist .noFocus {
+    color: #FFFFFF;
+    background: #FF526C; }
+  .masterList .masterlist .isFocus {
+    color: #FF526C;
+    background: rgba(255, 82, 108, 0.15); }
+  .masterList .masterlist .portrait {
+    width: 2.9375rem;
+    height: 2.9375rem;
+    border-radius: 50%;
+    background: #333333;
+    color: #FFFFFF; }
+  .masterList .masterlist .masterInfo {
+    width: 15.625rem; }
+    .masterList .masterlist .masterInfo .masterInfoName {
+      font-size: 0.875rem;
+      color: #333333; }
+    .masterList .masterlist .masterInfo .masterInfoLikePerson {
+      font-size: 0.6875rem;
+      color: #A6A6A6; }
+    .masterList .masterlist .masterInfo .masterInfoUnit {
+      font-size: 0.8125rem;
+      color: #333333; }
+    .masterList .masterlist .masterInfo .masterInfoPost {
+      display: inline-block;
+      font-size: 0.6875rem;
+      color: #FF526C;
+      padding: 0.1875rem 0.4375rem;
+      background: rgba(255, 82, 108, 0.15);
+      border-radius: 0.3125rem;
+      margin-top: 0.5625rem;
+      margin-bottom: 0.75rem; }
+    .masterList .masterlist .masterInfo .masterInfoRemark {
+      font-size: 0.8125rem;
+      color: #666666;
+      margin-bottom: 1.0625rem; }

@@ -1,0 +1,98 @@
+.dynamic{
+	.operator{
+		height: 1.875rem;
+		width: 19.6875rem;
+		.operatorflex{
+			width: 4.375rem;
+			font-size: 0.6875rem;
+			color: #666666;
+		}
+	}
+	.dynamicList{
+		width: 100%;
+		background-color: #FFFFFF;
+		border-bottom: 0.0625rem solid #E1E1E1;
+		margin-top: 0.75rem;
+		.informationpb{margin-bottom: 0.625rem;}
+		.dynamicLists{
+			width: 19.6875rem;
+			min-height: 16.5625rem;
+			// min-height: 18.75rem;
+			border-bottom: 0.0625rem solid #E1E1E1;
+			
+			/* 关注按钮 */
+			.matserRight{
+				width: 2.875rem;
+				height: 1.375rem;
+				background: rgba($color: #FF526C, $alpha: .5);
+				border-radius: 0.6875rem;
+				font-size: 0.6875rem;
+				color: #FF526C;
+			}
+			.isfocus{
+				background: #E9E9E9;
+				color: #666666;
+			}
+			
+			/* 文章信息 */
+			.information{
+				width: 100%;
+				p{
+					margin-top: 0.625rem;
+					line-height: 1.1875rem;
+					font-size: 0.8125rem;
+					color: #444444;
+				}
+				.informationOnlyPict{
+					width: 12.25rem;
+					height: 8.1875rem;
+					border-radius: 0.3125rem;
+					background-color: #333;
+					color: #FFFFFF;
+					margin-top: 0.625rem;
+				}
+				.informationMorePict{
+					margin-top: 0.625rem;
+					.morePict{
+						width: 5.8125rem;
+						height: 5.8125rem;
+						border-radius: 0.3125rem;
+						background: #333;
+						color: #FFFFFF;
+					}
+				}
+				.informationVideo{
+					width: 18.375rem;
+					height: 9.8125rem;
+					background: #000000;
+					border-radius: 0.3125rem;
+					margin-top: 0.625rem;
+				}
+			}
+			
+			/* 大咖信息 */
+			.masterInfo{
+				width: 100%;
+				height: 2.566875rem;
+				.portrait{
+					width: 2.5625rem;
+					height: 2.5625rem;
+					border-radius: 50%;
+					background-color: #333;
+					color: #FFFFFF;
+				}
+				.infoName{
+					margin-left: 0.729375rem;
+					.infoName_name{
+						font-size: 0.75rem;
+						color: #333333;
+					}
+					.infoName_time{
+						font-size: 0.6875rem;
+						color: #666666;
+					}
+				}
+			}
+		}
+	}
+}
